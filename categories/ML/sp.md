@@ -1,0 +1,7 @@
+---
+about: SP
+title: Signal Processing
+motivation: Someday it will all make sense.
+---
+
+{% include catalog.html %}

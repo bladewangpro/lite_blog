@@ -1,0 +1,23 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: IOS
+  link: /categories/ios.html
+- name: ML
+  # link: /
+  sub:
+    - name: TF
+      link: /categories/ML/tf.html
+    - name: SKIT
+      link: /categories/ML/skit.html
+    - name: SP
+      link: /categories/ML/sp.html
+- name: SHELL
+  link: /categories/shell.html
+- name: ENGReading
+  link: /categories/engreading.html
+- name: MATH
+  link: /categories/math.html
+- name: LEETCODE
+  link: /categories/leetcode.html

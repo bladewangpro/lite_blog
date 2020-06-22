@@ -1,0 +1,7 @@
+---
+about: SHELL
+title: Learning Shell
+motivation: Someday it will all make sense.
+---
+
+{% include catalog.html %}
