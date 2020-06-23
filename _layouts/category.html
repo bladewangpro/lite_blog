@@ -34,6 +34,9 @@
 
 	<body class="w3-crw">
 		<div class="wrapper">
+			{% if page.use_math %}
+			{% include mathjax_support %}
+			{% endif %}
 			{% include navigation.html %}
 			<!-- The Band Section-------------------- -->
 			<div class="w3-content" style="max-width:2000px;margin-top:46px">

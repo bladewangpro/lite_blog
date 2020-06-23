@@ -7,9 +7,7 @@
 		<link rel="stylesheet" href="/assets/css/w3.css">
 		<link rel="stylesheet" href="/assets/fonts/helvetica.css">
 		<link rel="stylesheet" href="{{ site.css.font_color.css }}">
-		{% if page.use_math %}
-		{% include mathjax_support %}
-		{% endif %}
+		
 		<style>
 			body {
 				font-family: "Helvetica", sans-serif;
@@ -34,6 +32,9 @@
 
 	<body class="w3-crw">
 		<div class="wrapper">
+			{% if page.use_math %}
+			{% include mathjax_support %}
+			{% endif %}
 			{% include navigation.html %}
 			{% include post_context.html %}
 			<div class="push"></div>
