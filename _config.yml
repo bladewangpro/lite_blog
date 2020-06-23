@@ -8,6 +8,10 @@ plugins:
 
 defaults:
   - scope:
+      path: "categories"
+    values:
+      layout: "category"
+  - scope:
       path: ""
     values:
       layout: "default"
