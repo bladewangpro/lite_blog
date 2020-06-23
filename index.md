@@ -1,4 +1,5 @@
 ---
+layout: default
 name: home_page
 use_math: true
 heading1: THE BAND
